@@ -2,8 +2,8 @@
 
 import cv2 as cv
 
-img = cv.imread('../Resources/Photos/cats.jpg')
-cv.imshow('Cats', img)
+img = cv.imread('../Resources/Photos/blurr.jpg')
+cv.imshow('Blurr', img)
 
 # Averaging
 average = cv.blur(img, (3,3))

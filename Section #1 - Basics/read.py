@@ -2,8 +2,8 @@
 
 import cv2 as cv
 
-img = cv.imread('../Resources/Photos/cats.jpg')
-cv.imshow('Cats', img)
+img = cv.imread('../Resources/Photos/bulldog.jpg')
+cv.imshow('Bulldog', img)
 
 cv.waitKey(0)
 

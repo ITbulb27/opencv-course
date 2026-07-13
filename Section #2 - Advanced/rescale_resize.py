@@ -2,8 +2,8 @@
 
 import cv2 as cv
 
-# img = cv.imread('../Resources/Photos/cat.jpg')
-# cv.imshow('Cat', img)
+# img = cv.imread('../Resources/Photos/pusa1.jpg')
+# cv.imshow('Pusa1', img)
 
 def rescaleFrame(frame, scale=0.75):
     # Images, Videos and Live Video

@@ -18,12 +18,12 @@ cv.imshow('Rectangle', blank)
 cv.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40, (0,0,255), thickness=-1)
 cv.imshow('Circle', blank)
 
-# 4. Draw a line
+# 4. Draw a line (Kini ang puti nga linya nga natapos sa y-coordinate 400)
 cv.line(blank, (100,250), (300,400), (255,255,255), thickness=3)
 cv.imshow('Line', blank)
 
-# 5. Write text
-cv.putText(blank, 'Hello, my name is Jason!!!', (0,225), cv.FONT_HERSHEY_TRIPLEX, 1.0, (0,255,0), 2)
+# 5. Write text (Gibalhin ubos sa puti nga linya gamit ang y-coordinate nga 450)
+cv.putText(blank, 'Hello, my name is ITbulb!!!', (40,450), cv.FONT_HERSHEY_TRIPLEX, 0.9, (255,255,255), 1)
 cv.imshow('Text', blank)
 
 cv.waitKey(0)
