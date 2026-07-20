@@ -3,8 +3,8 @@
 import cv2 as cv
 import os
 
-image_path = '../Resources/Photos/group 1.jpg'
-cascade_path = 'haar_face.xml'
+image_path = '../Resources/Photos/naruto.jpg'
+cascade_path = 'naruto1.xml'
 
 # 1. Safety Check para sa Image File
 if not os.path.exists(image_path):
@@ -14,7 +14,7 @@ if not os.path.exists(image_path):
 # 2. Safety Check para sa Haar Cascade XML File
 elif not os.path.exists(cascade_path):
     print(f"Error: Ang XML file wala makit-i sa: '{cascade_path}'")
-    print("Siguroha nga naa ang 'haar_face.xml' sa parehas nga folder diin nimo gipadagan kini nga script.")
+    print("Siguroha nga naa ang 'naruto 1.xml' sa parehas nga folder diin nimo gipadagan kini nga script.")
 
 else:
     # Basahon ang image kung naa ang duha ka file
